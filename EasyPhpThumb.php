@@ -62,7 +62,7 @@ class EasyPhpThumb extends CApplicationComponent {
                 throw new Exception("Given format not found in allowed (GIF, JPG, PNG) - received ".$format);
             }
         }
-        $this->image->save($this->thumbsDirectory."/".$filename, $format);
+        return $this->image->save($this->thumbsDirectory."/".$filename, $format);
     }
 
     public function show(){
