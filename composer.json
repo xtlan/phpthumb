@@ -1,4 +1,5 @@
 {
-    "name": "yii/phpthumb"
+    "name": "xtlan/phpthumb",
+    "autoload": {
+    }
 }
-
