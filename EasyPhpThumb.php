@@ -1,5 +1,6 @@
 <?php
-class EasyPhpThumb extends CApplicationComponent {
+use yii\base\Object;
+class EasyPhpThumb extends Object {
 
     private $image;
     private $thumbsDirectory;
